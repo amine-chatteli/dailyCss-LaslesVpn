@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from './styles/MainButton.styled'
-import { ReactComponent as Arrow } from '../media/arrow.svg'
+import { ReactComponent as Arrow } from '../media/images/arrow.svg'
 
 const MainButton = ({ content, type }) => {
     const [active, setActive] = useState(true)

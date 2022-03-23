@@ -1,7 +1,7 @@
 import React from 'react'
 import MainButton from './MainButton'
 import { StyledNavbar, Logo, Menu, AuthButtons } from './styles/Navbar.styled'
-import logo from "../media/logo.svg"
+import logo from "../media/images/logo.svg"
 
 
 const Navbar = () => {
@@ -21,8 +21,10 @@ const Navbar = () => {
                 <li>Help</li>
             </Menu>
             <AuthButtons>
+                <span>Sign In</span>
                 <MainButton
-                    type='circular'
+                    type='secondary'
+                    content={'Sign Up'}
                 />
             </AuthButtons>
         </StyledNavbar >

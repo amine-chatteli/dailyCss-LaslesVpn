@@ -6,39 +6,40 @@ export const Button = styled.button`
     switch (props.type) {
       case "secondary":
         return css`
-        width:9.37rem;
-        height:2.81rem;
+        box-sizing:border-box;
+        width:9.37em;
+        height:2.81em;
         font-family: 'Rubik';
         font-style: normal;
         background: #F6F6F6;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 1.2em;
         color: #F53855;
-        border: 2px solid #F53855;
+        border: 1px solid #F53855;
         border-radius: 50px;
         box-sizing: border-box;
         padding: 0.81em 0rem;
          `;
       case "circular":
         return css`
-        width:3.75rem;
-        height:3.75rem;
-        padding:0.93rem;
+        width:3.75em;
+        height:3.75em;
+        padding:0.93em;
         border-radius:50%;
-        border: 2px solid #F53855;
+        border: 1px solid #F53855;
          `;
       default:
         return css`
          width:15.625em;
          height:3.75em;
-         border: 2px solid #F53855;
+         border: 1px solid #F53855;
          border-radius:10px;
          font-family: 'Rubik';
          font-style: normal;
          font-weight: 700;
-         font-size: 16px;
-         line-height: 25px;
+         font-size: 1em;
+         line-height: 1.56em;
          `;
     }
   }}
