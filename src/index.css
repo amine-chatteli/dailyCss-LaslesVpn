@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url(./media/fonts/Rubik-VariableFont_wght.ttf) format('truetype');
+
+}
