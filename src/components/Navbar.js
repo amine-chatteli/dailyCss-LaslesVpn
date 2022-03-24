@@ -25,6 +25,7 @@ const Navbar = () => {
                 <MainButton
                     type='secondary'
                     content={'Sign Up'}
+                    width={'28.14%'}
                 />
             </AuthButtons>
         </StyledNavbar >

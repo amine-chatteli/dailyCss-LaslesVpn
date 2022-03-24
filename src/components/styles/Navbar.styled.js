@@ -16,24 +16,29 @@ export const Logo = styled.div`
 p {
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 1.5rem;
     color: #0B132A;
-    }`
+    span{
+        font-size:1.1rem;
+        font-weight:900;
+    }
+}
+`
 
 export const Menu = styled.ul`
-background-color:red;
     width:31.31%;
-    padding:unset;
+    padding:3.66rem 0;
+    margin:unset;
     list-style:none;
     display:flex;
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
+    color:#4F5665;
 `
 export const AuthButtons = styled.div`
-    background-color:yellow;
     width: 37.01%;
     display:flex;
     align-items:center;
