@@ -2,12 +2,11 @@ import styled from "styled-components";
 import { css } from "styled-components";
 
 export const Button = styled.button`
- ${(props) => {
-    switch (props.type) {
+ ${({ type, width }) => {
+    switch (type) {
       case "secondary":
         return css`
-        box-sizing:border-box;
-        width:9.37em;
+        width:${width};
         height:2.81em;
         font-family: 'Rubik';
         font-style: normal;
@@ -19,16 +18,16 @@ export const Button = styled.button`
         border: 1px solid #F53855;
         border-radius: 50px;
         box-sizing: border-box;
-        padding: 0.81em 0rem;
-         `;
+        padding: 0.81em 0rem;`
+
       case "circular":
         return css`
         width:3.75em;
         height:3.75em;
         padding:0.93em;
         border-radius:50%;
-        border: 1px solid #F53855;
-         `;
+        border: 1px solid #F53855;`
+
       default:
         return css`
          width:15.625em;
@@ -39,8 +38,7 @@ export const Button = styled.button`
          font-style: normal;
          font-weight: 700;
          font-size: 1em;
-         line-height: 1.56em;
-         `;
+         line-height: 1.56em;`
     }
   }}
  ${(props) => {
