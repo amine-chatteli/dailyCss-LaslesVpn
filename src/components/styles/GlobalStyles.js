@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
+  background: #F6F6F6;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,6 +25,15 @@ h1{
     color: #0B132A;
     margin-bottom:1.45rem;
 }
+h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.19rem;
+    line-height: 3.12rem;
+    color: #0B132A;
+}
+
 p{
     font-family: 'Rubik';
     font-style: normal;
