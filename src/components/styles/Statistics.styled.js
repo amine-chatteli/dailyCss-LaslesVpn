@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const StyledStats = styled.div`
     width:79.17%;
-    height:12.5rem;
+    height:11.5rem;
     margin:6.44rem auto;
+    background-color:#FFFFFF;
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -13,12 +14,13 @@ export const StyledStats = styled.div`
 `
 export const StyledStatCard = styled.div`
     width:${({ width }) => width};
-    height:100%;
+    height:70%;
     display:flex;
     flex-direction:row;
     align-items:center;
     justify-content:center;
     gap:2.19rem;
+    border-right:${({ withBorder }) => withBorder && '2px solid #EEEFF2'};
 
     div{
         line-height:0.5rem;

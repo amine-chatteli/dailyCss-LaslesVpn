@@ -8,14 +8,14 @@ import { ReactComponent as Server } from '../media/images/Icon/Server.svg'
 function Statistics() {
   return (
     <StyledStats>
-      <StatCard width='32%'>
+      <StatCard width='32%' withBorder>
         <Users />
         <div>
           <h3>90+</h3>
           <span>Users</span>
         </div>
       </StatCard>
-      <StatCard width='36%'>
+      <StatCard width='36%' withBorder>
         <Locations />
         <div>
           <h3>30+</h3>
