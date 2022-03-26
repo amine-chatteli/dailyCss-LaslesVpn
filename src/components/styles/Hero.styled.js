@@ -10,9 +10,11 @@ export const StyledHero = styled.section`
     img{
         width:47.38%;
     }
+    p{
+        margin-bottom:2.8rem;
+    }
 `
 export const StyledDescription = styled.div`
-    background-color:red;
     width:43.02%;
 
 `
