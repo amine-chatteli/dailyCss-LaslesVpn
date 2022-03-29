@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Button } from './styles/MainButton.styled'
 import { ReactComponent as Arrow } from '../media/images/arrow.svg'
 
-const MainButton = ({ content, type, width }) => {
-    const [active, setActive] = useState(true)
+const MainButton = ({ content, type, width, isactive }) => {
+    const [active, setActive] = useState(isactive)
 
     const handleClick = () => {
         setActive(!active)

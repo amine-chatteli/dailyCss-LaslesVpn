@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledStats = styled.div`
     width:79.17%;
     height:11.5rem;
-    margin:6.44rem auto;
+    margin:6.44rem auto 5rem;
     background-color:#FFFFFF;
     display:flex;
     flex-direction:row;
