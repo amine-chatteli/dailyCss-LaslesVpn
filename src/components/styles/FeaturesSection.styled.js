@@ -7,6 +7,8 @@ export const StyledFeaturesSection = styled.div`
     flex-direction:row;
     align-items:flex-end;
     justify-content:space-between;
+    background-color:white;
+
     div{
         width: 38.61%;
     }
@@ -32,6 +34,7 @@ export const StyledFeaturesSection = styled.div`
             align-items:flex-end;
             gap:0.5rem;
             margin-top:0.6rem;
+            
             svg{
                 margin-bottom:3px;
             }
