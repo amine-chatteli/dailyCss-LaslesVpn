@@ -10,11 +10,13 @@ const PricePlan = ({ plan, planDetails, price }) => {
             <Free />
             <span>{plan}</span>
             <ul>
-                {planDetails.map(item => <li>
-                    <Vector />
-                    <span >{item}</span>
-                </li>
-                )}
+                {planDetails.map(item => (
+                    <li key={item}>
+                        <Vector />
+                        <span>{item}</span>
+                    </li>
+                ))
+                }
             </ul>
             <span>{price}</span>
             <MainButton active type='secondary' width='20%' />
