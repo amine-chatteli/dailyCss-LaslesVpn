@@ -12,8 +12,9 @@ const NetworkSection = () => {
   return (
     <StyledNetworkSection>
       <SectionHeader
+        margin={'6rem auto'}
         title='Huge Global Network of Fast VPN'
-        description="See LaslesVPN everywhere to make it easier for you when you move locations."
+        description={<p>See <strong>LaslesVPN</strong> everywhere to make it easier for you when you move locations.</p>}
       />
       <Network />
       <StyledPartners>

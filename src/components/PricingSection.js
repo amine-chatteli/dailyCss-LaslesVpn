@@ -9,6 +9,7 @@ const PricingSection = () => {
   return (
     <>
       <SectionHeader
+        margin={'5rem auto'}
         title='Choose Your Plan'
         description="Let's choose the package that is best for you and explore it happily and cheerfully."
       />
@@ -20,11 +21,11 @@ const PricingSection = () => {
         <PricePlan
           plan='Standard Plan'
           planDetails={pricePlans.slice(0, 5)}
-          price='$9 / mo' />
+          price={<h3>$9<span> / mo</span></h3>} />
         <PricePlan
           plan='Premium Plan'
           planDetails={pricePlans}
-          price='$12 / mo' />
+          price={<h3>$12<span> / mo</span></h3>} />
       </StyledPricingSection>
     </>
 

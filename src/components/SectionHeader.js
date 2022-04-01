@@ -1,11 +1,11 @@
 import React from 'react'
 import { StyledSectionHedear } from './styles/SectionHeader.styled'
 
-function SectionHeader({ title, description }) {
+function SectionHeader({ title, description, margin }) {
     return (
-        <StyledSectionHedear>
+        <StyledSectionHedear margin={margin}>
             <h2>{title}</h2>
-            <p>{description}</p>
+            {description}
         </StyledSectionHedear>
     )
 }
