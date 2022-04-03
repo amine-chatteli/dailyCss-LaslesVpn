@@ -1,4 +1,5 @@
 import FeaturesSection from "./components/FeaturesSection";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NetworkSection from "./components/NetworkSection";
@@ -21,6 +22,7 @@ function App() {
       <NetworkSection />
       <ReviewsSection />
       <SubscriptionSection />
+      <Footer />
     </div>
   );
 }

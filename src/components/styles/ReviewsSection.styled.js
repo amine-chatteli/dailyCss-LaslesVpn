@@ -11,7 +11,7 @@ export const StyledControls = styled.div`
     width:90%;
     margin:2.5rem auto;
     display:flex;
-    flex-direction:row;
+    flex-direction:row; 
     align-items:center;
     justify-content:space-between;
 `
