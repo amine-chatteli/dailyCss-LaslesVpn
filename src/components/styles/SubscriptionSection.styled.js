@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledSubscriptionSection = styled.div`
+    position:absolute;
+    bottom:0;
     background-color:yellow;
     width:79.17%;
     display:flex;
