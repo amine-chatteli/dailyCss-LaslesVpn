@@ -7,8 +7,6 @@ import PricingSection from "./components/PricingSection";
 import ReviewsSection from "./components/ReviewsSection";
 import Statistics from "./components/Statistics";
 import GlobalStyle from "./components/styles/GlobalStyles";
-import SubscriptionSection from "./components/SubscriptionSection";
-
 
 function App() {
   return (
@@ -21,7 +19,6 @@ function App() {
       <PricingSection />
       <NetworkSection />
       <ReviewsSection />
-      <SubscriptionSection />
       <Footer />
     </div>
   );

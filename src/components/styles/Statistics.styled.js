@@ -11,6 +11,9 @@ export const StyledStats = styled.div`
     justify-content:space-between;
     overflow: hidden;
     border-radius: 10px;
+    box-shadow: -3px 1px 20px 18px rgba(179,174,174,0.11);
+-webkit-box-shadow: -3px 1px 20px 18px rgba(179,174,174,0.11);
+-moz-box-shadow: -3px 1px 20px 18px rgba(179,174,174,0.11);
 `
 export const StyledStatCard = styled.div`
     width:${({ width }) => width};

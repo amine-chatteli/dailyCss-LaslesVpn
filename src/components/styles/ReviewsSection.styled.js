@@ -9,7 +9,7 @@ export const StyledReviewsSection = styled.div`
 `
 export const StyledControls = styled.div`
     width:90%;
-    margin:2.5rem auto;
+    margin:2.5rem auto 8rem;
     display:flex;
     flex-direction:row; 
     align-items:center;

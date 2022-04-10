@@ -37,6 +37,10 @@ export const Menu = styled.ul`
     align-items:center;
     justify-content:space-between;
     color:#4F5665;
+    a{
+        text-decoration:none;
+        color:#4F5665;
+    }
 `
 export const AuthButtons = styled.div`
     width: 37.01%;

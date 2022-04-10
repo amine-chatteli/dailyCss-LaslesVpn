@@ -6,7 +6,7 @@ import { ReactComponent as Tick } from '../media/images/Icon/tick.svg'
 
 const FeaturesSection = () => {
     return (
-        <StyledFeaturesSection>
+        <StyledFeaturesSection id='features'>
             <FeaturesImage />
             <div>
                 <h2>We Provide Many Features You Can Use</h2>

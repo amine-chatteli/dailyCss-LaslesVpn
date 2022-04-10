@@ -12,12 +12,12 @@ const reviews = ['“Wow... I am very happy to use this VPN, it turned out to be
 const ReviewsSection = () => {
     return (
         <>
-            <SectionHeader
+            <SectionHeader 
                 margin='1rem auto 2.5rem'
                 title='Trusted by Thousands of Happy Customer'
                 description={<p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>}
             />
-            <StyledReviewsSection>
+            <StyledReviewsSection id='testimonials'>
                 <ReviewCard
                     userName='Viezh Robert'
                     userCountry='Warsaw, Poland'

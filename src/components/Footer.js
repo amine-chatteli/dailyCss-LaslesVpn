@@ -5,11 +5,13 @@ import { Logo } from './styles/Navbar.styled'
 import { ReactComponent as Facebook } from "../media/images/Icon/Facebook.svg"
 import { ReactComponent as Instagram } from "../media/images/Icon/Instagram.svg"
 import { ReactComponent as Twitter } from "../media/images/Icon/Twitter.svg"
+import SubscriptionSection from "./SubscriptionSection"
 
 
 const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter id='help'>
+      <SubscriptionSection />
       <LeftSection>
         <Logo>
           <img src={logo} alt='lasles VPN logo' />

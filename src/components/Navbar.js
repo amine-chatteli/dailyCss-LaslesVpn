@@ -14,11 +14,11 @@ const Navbar = () => {
                 </p>
             </Logo>
             <Menu>
-                <li>About</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Testimonials</li>
-                <li>Help</li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#features'>Features</a></li>
+                <li><a href='#pricing'>Pricing</a></li>
+                <li><a href='#testimonials'>Testimonials</a></li>
+                <li><a href='#help'>Help</a></li>
             </Menu>
             <AuthButtons>
                 <span>Sign In</span>
