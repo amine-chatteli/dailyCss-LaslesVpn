@@ -1,11 +1,11 @@
 import React from 'react'
-import { StyledFooter, SocialMediaLogos, LeftSection, RightSection } from './styles/Footer.styled'
-import logo from "../media/images/logo.svg"
-import { Logo } from './styles/Navbar.styled'
+import { StyledFooter, FooterLogo, SocialMediaLogos, LeftSection, RightSection } from './styles/Footer.styled'
 import { ReactComponent as Facebook } from "../media/images/Icon/Facebook.svg"
 import { ReactComponent as Instagram } from "../media/images/Icon/Instagram.svg"
 import { ReactComponent as Twitter } from "../media/images/Icon/Twitter.svg"
 import SubscriptionSection from "./SubscriptionSection"
+import logo from "../media/images/logo.svg"
+
 
 
 const Footer = () => {
@@ -13,12 +13,12 @@ const Footer = () => {
     <StyledFooter id='help'>
       <SubscriptionSection />
       <LeftSection>
-        <Logo>
+        <FooterLogo>
           <img src={logo} alt='lasles VPN logo' />
           <p>
             Lasles <span>VPN</span>
           </p>
-        </Logo>
+        </FooterLogo>
         <p><strong>LaslesVPN </strong>is a private virtual network that has unique features and has high security.</p>
         <SocialMediaLogos>
           <li><Facebook /></li>
