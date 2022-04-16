@@ -8,6 +8,8 @@ export const StyledPricingSection = styled.div`
     
 `
 export const StyledPricePlan = styled.div`
+    flex:2;
+    height:100%;
     position:relative;
     width:22.92%;
     min-height:42.5rem;
@@ -45,6 +47,7 @@ export const List = styled.ul`
     width :56%;
     margin:0 auto;
     padding:unset;
+    min-height:14.8rem;
 
     li{
         display:flex;
@@ -62,8 +65,6 @@ export const List = styled.ul`
 `
 
 export const PriceSelection = styled.div`
-    position:absolute;
-    bottom:2.5rem;
     width:100%;
     display:flex;
     flex-direction:column;
