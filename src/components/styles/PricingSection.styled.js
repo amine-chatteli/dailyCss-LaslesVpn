@@ -8,8 +8,6 @@ export const StyledPricingSection = styled.div`
     
 `
 export const StyledPricePlan = styled.div`
-    flex:2;
-    height:100%;
     position:relative;
     width:22.92%;
     min-height:42.5rem;
